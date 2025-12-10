@@ -29,10 +29,10 @@ The state is a typed dictionary that acts as the memory and data pipeline, passi
 The graph defines a two-step process:
 
 ```mermaid
-graph TD
-    A[Start: User Input (Company Name)] -->|Initial State| B(Node: Data Collector Agent 1)
-    B -->|Update State: raw_data| C(Node: Analyst Agent 2)
-    C -->|Update State: final_report| D[End: Output Final Report]
+graph TD;
+    A[Start: User Input (Company Name)] -->|Initial State| B(Node: Data Collector Agent 1);
+    B -->|Update State: raw_data| C(Node: Analyst Agent 2);
+    C -->|Update State: final_report| D[End: Output Final Report];
 ```
 # Conversational Knowledge Bot (LangChain Agent)
 
