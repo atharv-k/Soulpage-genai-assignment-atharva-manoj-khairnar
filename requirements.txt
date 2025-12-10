@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-community
+langchain-core
+python-dotenv
+streamlit
+streamlit-chat
+ipykernel
+duckduckgo-search
+langgraph
