@@ -28,12 +28,8 @@ The state is a typed dictionary that acts as the memory and data pipeline, passi
 
 The graph defines a two-step process:
 
-```mermaid
-graph TD;
-    A[Start: User Input (Company Name)] --> |Initial State| B(Node: Data Collector Agent 1);
-    B --> |Update State: raw_data| C(Node: Analyst Agent 2);
-    C --> |Update State: final_report| D[End: Output Final Report];
-```
+<img width="500" height="850" alt="Image" src="https://github.com/user-attachments/assets/e119946b-a697-453c-9ada-23a4349e57ef" />
+
 # Conversational Knowledge Bot (LangChain Agent)
 
 This project implements a conversational knowledge bot using the LangChain framework. It fulfills the core requirements of memory, external tool usage, and contextual responses by leveraging the `initialize_agent`.
